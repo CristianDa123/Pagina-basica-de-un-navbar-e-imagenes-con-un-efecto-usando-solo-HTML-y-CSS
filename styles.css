@@ -1,0 +1,98 @@
+body{
+    max-width: 100%;
+    background-color: aqua;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h2{
+
+    
+    margin-left:75px;
+    margin-top: -60px;
+    color:white;
+    
+
+}
+
+
+img{
+
+    height: 100%;
+}
+
+
+.nav__ul {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    align-items: center; /* Centra verticalmente los elementos */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__ul li {
+    margin-right: 20px; /* Espacio entre elementos */
+    margin-top: -20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight:700;
+}
+
+
+
+div{
+
+    margin-top: 30vh; 
+    margin-left: 29vh;
+}
+
+ul{
+list-style-type: none; /* Quita los puntos de la lista */
+
+}
+
+.ul__li{
+
+ display:inline-block;
+ position:relative;
+ margin:0;
+}
+
+img{
+ max-width: 30vh ;
+ max-height: 30vh;
+ transition: transform 0.3s ease; /* Transición suave de la propiedad transform */
+
+
+}
+
+img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% de su tamaño original */
+
+
+  }
+
+.ul__li--img1{
+
+display:inline-block;
+position:relative;
+top:18px;
+left: 20px;
+max-width: 30vh ;
+max-height: 30vh;
+
+}
+
